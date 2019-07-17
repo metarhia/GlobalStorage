@@ -1,0 +1,6 @@
+Action({
+  Public: true,
+  Args: {
+    valueFromContext: { context: 'NomenFromContext' },
+  },
+});
