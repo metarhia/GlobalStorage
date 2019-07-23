@@ -3,5 +3,5 @@ Local({
   Created: { domain: 'DateTime', required: true },
   Query: { domain: 'JSON', required: true },
   Version: { domain: 'Version', default: 0, required: true },
-  Subscribers: Many('Session')
-})
+  Subscribers: Many('Session'),
+});

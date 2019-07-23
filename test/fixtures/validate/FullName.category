@@ -1,4 +1,4 @@
-{
+({
   FirstName: { domain: 'Nomen' },
   LastName: { domain: 'Nomen' },
-}
+});

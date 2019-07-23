@@ -1,3 +1,3 @@
 System({
-    Prop: { domain: 'Test' }
-})
+  Prop: { domain: 'Test' },
+});

@@ -10,6 +10,6 @@ Registry({
   CompressedSize: { domain: 'DataSize', required: true },
   CompressRatio: {
     domain: 'Ratio',
-    expression: record => record.CompressedSize / record.OriginalSize
-  }
-})
+    expression: record => record.CompressedSize / record.OriginalSize,
+  },
+});

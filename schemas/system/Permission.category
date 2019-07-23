@@ -8,5 +8,5 @@ System({
 
   NaturalKey: Index('Role', 'Category'),
 
-  CheckBound: Validate(record => true)
-})
+  CheckBound: Validate((/*record*/) => true),
+});

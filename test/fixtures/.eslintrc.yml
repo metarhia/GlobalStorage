@@ -1,0 +1,7 @@
+extends: '../../schemas-eslint-config.js'
+globals:
+  Include: false
+  History: false
+  Memory: false
+  Application: false
+  Group: false

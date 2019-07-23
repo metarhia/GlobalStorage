@@ -1,4 +1,4 @@
-{
+({
   Id: {
     type: 'object',
     class: 'Uint64',
@@ -9,7 +9,7 @@
         );
       }
       return new api.common.Uint64(x);
-    }
+    },
   },
   Lambda: { type: 'function' },
   Logical: { type: 'boolean', control: 'CheckBox' },
@@ -67,12 +67,27 @@
   CountryNumeric: { type: 'string', length: 3, comment: 'ISO 3166-1 numeric' },
   Year: { type: 'number', length: 4 },
   Month: Enum(
-    'January', 'February', 'March', 'April', 'May', 'June',
-    'July', 'August', 'September', 'October', 'November', 'December'
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December'
   ),
   Day: Enum(
-    'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
-    'Saturday', 'Sunday'
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+    'Sunday'
   ),
   Seconds: { type: 'number', unit: 'Second' },
   Minutes: { type: 'number', unit: 'Minute', base: 'Second', mul: 60 },
@@ -115,4 +130,4 @@
   Volume: { type: 'number', unit: 'Litre', symbol: 'l' },
   Speed: { type: 'number', unit: 'Metres per second', symbol: 'm/s' },
   Ratio: { type: 'number' },
-}
+});

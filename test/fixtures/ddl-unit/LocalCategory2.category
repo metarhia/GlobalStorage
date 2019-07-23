@@ -1,3 +1,5 @@
-{
-  field: { category: 'LocalCategory1' }
-}
+({
+  field: {
+    category: 'LocalCategory1',
+  },
+});

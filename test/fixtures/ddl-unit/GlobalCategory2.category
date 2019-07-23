@@ -1,3 +1,3 @@
 Registry({
-  field: { category: 'GlobalCategory1' }
-})
+  field: { category: 'GlobalCategory1' },
+});

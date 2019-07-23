@@ -1,6 +1,6 @@
-{
+({
   Test: {
     type: 'object',
-    class: '__UNSUPPORTED_CLASS__'
-  }
-}
+    class: '__UNSUPPORTED_CLASS__',
+  },
+});

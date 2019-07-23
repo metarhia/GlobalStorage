@@ -2,5 +2,5 @@ System({
   Name: { domain: 'Nomen', display: true, required: true, unique: true },
   Suffix: { domain: 'Id', required: true, unique: true },
   IP: { domain: 'IP', required: true, unique: true },
-  ServerType: { domain: 'ServerType', required: true, default: 'Server' }
-})
+  ServerType: { domain: 'ServerType', required: true, default: 'Server' },
+});

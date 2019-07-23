@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 Local({
   Identifier: { category: 'Identifier', required: true, index: true },
   Session: { category: 'Session', required: true, index: true },
@@ -7,32 +8,34 @@ Local({
   Expire: { domain: 'DateTime', index: true },
   Updates: { domain: 'Version', required: true, default: 0 },
 
-  Lock: Action(({ Identifier }, callback) => {
+  Lock: Action(({ Identifier } /*, callback*/) => {
     const now = new Date();
-    gs.create({
-      Identifier,
-      Session: client.sessionId,
-      SystemUser: client.systemUserId,
-      Request: now
-    }, (err, data) => {
-      // to be implemented
-    });
+    gs.create(
+      {
+        Identifier,
+        Session: client.sessionId,
+        SystemUser: client.systemUserId,
+        Request: now,
+      },
+      (/*err, data*/) => {
+        // to be implemented
+      }
+    );
   }),
 
-  Unlock: Action(({ Identifier }, callback) => {
+  Unlock: Action(({ Identifier } /*, callback*/) => {
     gs.select({
       Identifier,
       Session: client.sessionId,
       SystemUser: client.systemUserId,
       Start: gs.notNull,
-      Expire: gs.Null
-    }).fetch((err, data) => {
+      Expire: gs.Null,
+    }).fetch((/*err, data*/) => {
       // to be implemented
     });
   }),
 
-  CheckLock: Action(({ Identifier }, callback) => {
+  CheckLock: Action((/*{ Identifier }, callback*/) => {
     // to be implemented
   }),
-
-})
+});

@@ -1,3 +1,5 @@
-{
-  field: { domain: 'Nomen' }
-}
+({
+  field: {
+    domain: 'Nomen',
+  },
+});

@@ -3,4 +3,4 @@ Action({
     Login: { domain: 'Login' },
   },
   Execute: async () => {},
-})
+});

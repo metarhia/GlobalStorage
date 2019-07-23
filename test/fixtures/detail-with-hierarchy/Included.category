@@ -1,4 +1,4 @@
-{
+({
   Name: { domains: 'Nomen' },
   Catalog: Catalog(),
-}
+});

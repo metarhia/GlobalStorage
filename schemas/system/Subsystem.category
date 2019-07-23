@@ -3,4 +3,4 @@ System({
   Code: { domain: 'Id', required: true, unique: true },
   SystemType: { domain: 'SystemType', required: true, default: 'Autonomous' },
   Parent: { category: 'Subsystem' },
-})
+});

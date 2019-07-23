@@ -3,5 +3,5 @@ System({
   Version: { domain: 'Version', required: true, index: true },
   Schema: { domain: 'Source', required: true },
 
-  NaturalKey: Unique('Category', 'Version')
-})
+  NaturalKey: Unique('Category', 'Version'),
+});

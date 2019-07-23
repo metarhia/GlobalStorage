@@ -4,4 +4,4 @@ Action({
   },
   Public: true,
   Execute: async () => {},
-})
+});

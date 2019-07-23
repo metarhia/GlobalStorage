@@ -1,4 +1,4 @@
 Action({
   Public: true,
   Execute: async () => 'PublicAction called',
-})
+});

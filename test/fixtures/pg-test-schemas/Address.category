@@ -1,4 +1,4 @@
 Registry({
   Country: { domain: 'Nomen', required: true },
   City: { domain: 'Nomen', required: true },
-})
+});

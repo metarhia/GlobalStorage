@@ -7,4 +7,4 @@ System({
   CheckPublic: Validate(record => !record.Category !== !record.Public),
 
   NaturalKey: Unique('Category', 'Name'),
-})
+});

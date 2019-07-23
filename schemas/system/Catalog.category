@@ -2,4 +2,4 @@ System({
   Caption: { domain: 'Nomen', lookup: true, required: true, index: true },
   Category: { category: 'Category', required: true },
   Parent: { category: 'Catalog' },
-})
+});

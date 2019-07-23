@@ -1,4 +1,4 @@
 Registry({
   Name: { domain: 'Nomen', required: true },
   Address: Include('Address'),
-})
+});

@@ -1,5 +1,5 @@
-{
+({
   FullName: Include('FullName'),
   Citizenship: { category: 'Country' },
   Parents: Many('Person'),
-}
+});

@@ -14,5 +14,5 @@ Registry({
     } else {
       return !record.Category;
     }
-  })
-})
+  }),
+});

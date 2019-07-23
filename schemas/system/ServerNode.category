@@ -8,5 +8,5 @@ Local({
 
   UniqueSequence: Unique('Server', 'Instance'),
   UniqueProcess: Unique('Server', 'Process'),
-  UniquePort: Unique('Server', 'Port')
-})
+  UniquePort: Unique('Server', 'Port'),
+});

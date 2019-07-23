@@ -5,6 +5,16 @@
     {
       "files": [".babelrc", ".prettierrc", ".metadocrc"],
       "options": { "parser": "json" }
+    },
+    {
+      "files": [
+        "*.action",
+        "*.category",
+        "*.domains",
+        "*.form",
+        "*.application"
+      ],
+      "options": { "parser": "babel" }
     }
   ]
 }

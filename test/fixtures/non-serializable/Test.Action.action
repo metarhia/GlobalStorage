@@ -1,5 +1,5 @@
 Action({
   Args: {
     Func: { domain: 'Number', check: Date.parse },
-  }
-})
+  },
+});

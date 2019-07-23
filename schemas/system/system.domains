@@ -1,11 +1,21 @@
-{
+({
   IdStatus: Enum('Prealloc', 'Init', 'Actual', 'Historical'),
   HistoryStatus: Enum('Future', 'Actual', 'Historical'),
   StorageKind: Enum('Master', 'Cache', 'Backup', 'Replica'),
   CategoryRealm: Enum('Global', 'System', 'Local'),
   CategoryFamily: Enum(
-    'Registry', 'Dictionary', 'System', 'Log', 'Local', 'Table', 'History',
-    'View', 'Projection', 'Memory', 'Form', 'Arguments'
+    'Registry',
+    'Dictionary',
+    'System',
+    'Log',
+    'Local',
+    'Table',
+    'History',
+    'View',
+    'Projection',
+    'Memory',
+    'Form',
+    'Arguments'
   ),
   UserAccess: Enum('Read', 'Insert', 'Update', 'Delete', 'Audit'),
   AccessFlags: Flags.of('UserAccess'),
@@ -28,5 +38,5 @@
   SystemType: Enum('Global', 'Autonomous', 'Standalone'),
   ServerType: Enum('Root', 'Server', 'Backup', 'Reserve'),
   NodeType: Enum('Master', 'Worker', 'Task'),
-  NodeStatus: Enum('Init', 'Active', 'Pause', 'Restart', 'Hang')
-}
+  NodeStatus: Enum('Init', 'Active', 'Pause', 'Restart', 'Hang'),
+});

@@ -1,6 +1,7 @@
-{
+({
   Func1: { domain: 'func', check: Date.parse },
+  /* eslint-disable-next-line object-shorthand */
   Func2: { domain: 'func', check: function() {} },
   Func3: { domain: 'func', check: () => {} },
   Func4: { domain: 'func', class() {} },
-}
+});

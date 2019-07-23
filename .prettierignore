@@ -1,2 +1,11 @@
-data
-dist
+*
+!.
+!lib
+!schemas
+!test
+!*.js
+!*.action
+!*.category
+!*.domains
+!*.form
+!*.application

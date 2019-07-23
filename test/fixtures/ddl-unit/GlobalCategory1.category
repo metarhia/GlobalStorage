@@ -1,3 +1,3 @@
 Registry({
-  field: { domain: 'Nomen' }
-})
+  field: { domain: 'Nomen' },
+});

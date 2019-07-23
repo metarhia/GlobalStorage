@@ -1,4 +1,4 @@
-{
+({
   Nomen: { type: 'string', length: 60 },
   Integer: { type: 'number', subtype: 'int' },
   CustomDate: { type: 'object', class: 'Date' },
@@ -8,5 +8,5 @@
   FlagsBigInt: Flags(...Array.from({ length: 45 }, (v, i) => `value${i + 1}`)),
   Flags16: Flags(...Array.from({ length: 16 }, (v, i) => `value${i + 1}`)),
   Flags32: Flags(...Array.from({ length: 32 }, (v, i) => `value${i + 1}`)),
-  Flags64: Flags(...Array.from({ length: 64 }, (v, i) => `value${i + 1}`))
-}
+  Flags64: Flags(...Array.from({ length: 64 }, (v, i) => `value${i + 1}`)),
+});

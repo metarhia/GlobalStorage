@@ -1,4 +1,4 @@
 Dictionary({
   Name: { domain: 'Nomen', lookup: true, required: true, unique: true },
-  Locale: { domain: 'Nomen', required: true, unique: true }
-})
+  Locale: { domain: 'Nomen', required: true, unique: true },
+});

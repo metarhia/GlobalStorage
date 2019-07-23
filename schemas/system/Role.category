@@ -3,4 +3,4 @@ System({
   Blocked: { domain: 'Logical', required: true, default: false },
   Subsystem: Subsystem(),
   Applications: Many('Application'),
-})
+});

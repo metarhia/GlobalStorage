@@ -1,4 +1,4 @@
 Registry({
   FullName: { domain: 'Nomen', required: true },
   Works: Many('Work'),
-})
+});

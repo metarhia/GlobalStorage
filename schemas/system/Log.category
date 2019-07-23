@@ -14,4 +14,4 @@ Log({
   Query: { domain: 'JSON' },
   Patch: { domain: 'JSON' },
   Response: { domain: 'JSON' },
-})
+});

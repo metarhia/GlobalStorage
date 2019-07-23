@@ -1,4 +1,4 @@
 Registry({
   DOB: { domain: 'DateDay' },
   Name: { domain: 'Nomen', required: true },
-})
+});

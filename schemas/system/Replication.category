@@ -3,5 +3,5 @@ System({
   Destination: { category: 'Subsystem', required: true },
   Category: { category: 'Category', required: true },
 
-  NaturalKey: Unique('Source', 'Destination', 'Category')
-})
+  NaturalKey: Unique('Source', 'Destination', 'Category'),
+});

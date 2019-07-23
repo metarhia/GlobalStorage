@@ -1,4 +1,4 @@
 Form({
   Login: { domain: 'Login', required: true },
-  Password: { domain: 'Password', required: true }
-})
+  Password: { domain: 'Password', required: true },
+});

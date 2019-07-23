@@ -1,4 +1,4 @@
-{
+({
   Login: { type: 'string', length: 32 },
   PasswordHash: { type: 'string', length: 128 },
-}
+});

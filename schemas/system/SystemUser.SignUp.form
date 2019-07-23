@@ -7,9 +7,9 @@ Form({
 
   Check: Validate(record => {
     return (
-      login.length > 5 &&
+      record.Login.length > 5 &&
       record.Password.length > 7 &&
       record.Password === record.PasswordConfirm
     );
-  })
-})
+  }),
+});

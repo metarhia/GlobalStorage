@@ -3,5 +3,5 @@ System({
   Language: { category: 'Language', required: true, index: true },
   Text: { domain: 'Text' },
 
-  NaturalKey: Unique('ResourceKey', 'Language')
-})
+  NaturalKey: Unique('ResourceKey', 'Language'),
+});

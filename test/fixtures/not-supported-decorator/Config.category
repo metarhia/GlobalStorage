@@ -1,3 +1,5 @@
-{
-  Config: { domain: 'Days' }
-}
+({
+  Config: {
+    domain: 'Days',
+  },
+});

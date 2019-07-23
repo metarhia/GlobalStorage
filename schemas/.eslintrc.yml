@@ -1,0 +1,3 @@
+extends: '../schemas-eslint-config.js'
+globals:
+  gs: false

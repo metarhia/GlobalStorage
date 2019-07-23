@@ -5,4 +5,4 @@ Action({
     b: { domain: 'Number', required: true },
   },
   Execute: async (provider, ctx, { a, b }) => a - b,
-})
+});
