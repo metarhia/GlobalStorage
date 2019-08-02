@@ -100,6 +100,12 @@ metatests.test(
           }
         });
 
+        test.test('empty create on local category', async test => {
+          const id = await provider.create('Local', {});
+          test.assert(id);
+          test.end();
+        });
+
         test.test('create on global category', async test => {
           const { category, value } = record;
           const id = await provider.create(category, value);
@@ -120,6 +126,12 @@ metatests.test(
           } finally {
             test.end();
           }
+        });
+
+        test.test('empty create on global category', async test => {
+          const id = await provider.create('OptionalRegistry', {});
+          test.assert(id);
+          test.end();
         });
 
         test.test('create on ignored category', async test => {
